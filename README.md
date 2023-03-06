@@ -14,3 +14,8 @@ specified in "word_analyser.py" and also a link to the submission of every word.
 Make sure you have python3 with nltk and pandas installed.
 Create the required folder structure and change the location variable in the
 respective files to the root folder of the data.
+
+Disclaimer:
+Building the corpus involved utilizing data provided by pushshift.io. Due to an outage of their API during the data collection for this corpus, pushshift’s submission archive was used rather than their API, which might result in slightly different data sets compared to the conventional method of data collection.
+
+This "Corpus" was created for my first semester linguistics term paper. I hope that this may be of use to someone. It is not actively being maintained right now.
