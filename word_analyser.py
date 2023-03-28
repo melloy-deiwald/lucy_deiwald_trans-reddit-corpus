@@ -10,7 +10,7 @@ year = sys.argv[2]
 location = ""
 #!!!!!!
 
-with open("/home/cassi/Nextcloud/Programming/reddit-scraper/"+year+"/subreddit_view/"+subreddit+".json", "r") as json_file:
+with open(location+year+"/subreddit_view/"+subreddit+".json", "r") as json_file:
     json_object = json.load(json_file)
 
 
